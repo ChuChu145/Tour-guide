@@ -1,0 +1,93 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+
+body {
+    margin: 0;
+    color: #1D3557; 
+    font-family: "Spinnaker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      }
+      
+
+.Hero {background-image: url("/images/Onitsha.jpg");
+background-size: cover;
+height: 340px;
+border-top: 1px solid transparent;}
+
+.Hero :hover{background-image: url("/images/Ofala_Onitsha_13.jpg");
+}
+
+#visit{border:1px;
+width: 220px;
+height: 40px;
+background-color:#1D3557;
+color:#FFFFFF;
+margin:120px auto 0px;
+text-align: center;
+padding: 5px;
+border-radius: 10px;}
+
+#culture{background-color:#457B;
+width: 500px;
+height: 52px;
+margin: 11px auto;
+color: #FFFFFF;
+padding: 5px 10px;
+text-align: center;
+border-radius:10px;}
+
+#top3{text-align: center;}
+
+.activities{
+height: 350px;
+color: #1D3557;
+background-color:#8d99;
+background-size: cover;
+border-top: 1px solid transparent ;
+padding-bottom: 20px;}
+
+.main-section{display: flex;
+justify-content:space-around;
+margin: 0px auto 0px;
+text-align: center;}
+
+#park, #cave, #bridge {width:200px;
+height:220px;
+border-bottom: 40px;}
+
+.odogwu{ border-radius: 400px;
+width: 100px;
+height: 100px;
+}
+
+
+.Guide-section{background-color: #BDE0FE;
+background-size: cover;
+padding: 50px 0px;}
+
+#card{
+    background-color: #3DCCC7;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    margin: 0px auto;
+    padding-top: 20px;
+    text-align: center;
+    padding-left: 10px;
+    box-shadow:0px 5px #1D3557;
+    }
+
+#per{width: 150px;
+height: 240px;}
+
